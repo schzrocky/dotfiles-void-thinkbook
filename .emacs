@@ -102,6 +102,8 @@
 (add-to-list 'auto-mode-alist '("\\.[hc]\\(pp\\)?\\'" . simpc-mode))
 (add-to-list 'auto-mode-alist '("\\.[b]\\'" . simpc-mode))
 
+(require 'umka-mode)
+
 (require 'c3-mode)
 
 ;;; Whitespace mode
