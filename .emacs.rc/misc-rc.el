@@ -142,3 +142,5 @@ This command does the inverse of `fill-paragraph'."
 (setq x-alt-keysym 'meta)
 
 (setq confirm-kill-emacs 'y-or-n-p)
+
+(windmove-default-keybindings)
