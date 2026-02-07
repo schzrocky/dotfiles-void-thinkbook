@@ -172,7 +172,13 @@ focus_follows_mouse no
 hide_edge_borders both
 
 exec --no-startup-id xrdb -merge ~/dotfiles/.Xresources
+
+# Audio setup
 exec --no-startup-id pipewire
 exec --no-startup-id wireplumber
 
+# Sets wallpaper
 exec --no-startup-id feh --bg-fill ~/dotfiles/bliss.jpg
+
+# Swaps CapsLk and Ctrl
+exec --no-startup-id setxkbmap -option ctrl:swapcaps
